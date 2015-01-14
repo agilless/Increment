@@ -1,0 +1,125 @@
+*{
+	-webkit-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	-moz-user-select:none;
+	-khtml-user-select:none;
+}
+
+body{
+	margin:0;
+	padding:0;
+	font-family:Courier New;
+	font-size: 1em;
+}
+
+.invisible{
+	visibility:hidden;
+}
+
+.circleBase{
+	border-radius: 50%;
+	behavior: url(PIE.htc);
+}
+
+.circle1{
+	width: 80px;
+	height:80px;
+	border: 1px solid gray;
+}
+
+#container{
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#leftSide{
+	width:300px;
+	height:500px;
+	float:left;
+	text-align:center;
+}
+
+#rightSide{
+	width:300px;
+	height:800px;
+	float:left;
+	font-size:.75em;
+	text-align: center;
+}
+
+#dude{
+	width:33px;
+	height:50px;
+	background-image:url(running.png);
+	background-repeat:no-repeat;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#groundContainer{
+	width:150px;
+	height:100px;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:hidden;
+	padding:0;
+}
+
+#groundSlide{
+	width:900px;
+	height:100px;
+	padding:0;
+	margin:0;
+}
+
+#ground1{
+	
+}
+
+#ground2{
+	
+}
+
+#ground3{
+	
+}
+
+.ground{
+	padding-top:30px;
+	height:20px;
+	width:150px;
+	list-style-type:none;
+	float:left;
+}
+
+#mainButtonContainer{
+	text-align:center;
+}
+
+#mainButton{
+	width:50px;
+	height:50px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:gray;
+	cursor:pointer;
+}
+
+#hoverUpgrade{
+	cursor:pointer;
+}
+
+#clickUpgrade{
+	cursor:pointer;
+}
+
+#b1{
+	cursor:pointer;
+}
+
+#b1Upgrade{
+	cursor:pointer;
+}
+
